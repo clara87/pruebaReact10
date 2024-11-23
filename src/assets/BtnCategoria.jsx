@@ -1,10 +1,10 @@
 const BtnCategoria = ({texto,categoria, funcionPadre}) => {
-    const handleSetCategoria2 = () => {
+    const handleSetCategoria = () => {
         funcionPadre(categoria)
         
     }
     return (
-        <button onClick={handleSetCategoria2}>{texto} </button>
+        <button onClick={handleSetCategoria}>{texto} </button>
     );
 };
 export default BtnCategoria;
